@@ -7,8 +7,8 @@ from notifiers import get_notifier
 from datetime import datetime
 
 # retrieve environment label
-ENVNAME = os.getenv('ENV', 'stage')
-USRTYPE = os.getenv('USR', 'stage')
+ENVNAME = os.getenv('ENV', 'prod')
+USRTYPE = os.getenv('USR', 'prod')
 
 # instantiate ConfigParser
 config = configparser.ConfigParser()
